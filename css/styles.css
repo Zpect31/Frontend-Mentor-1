@@ -116,6 +116,13 @@ body{
     border-radius: 50%;
 }
 
+@media (min-width: 375px) {
+    .contenido-principal__resultados {
+        height: 16rem;
+        width: 16rem;
+    }
+}
+
 .contenido-principal__resultado {
     font-size: 4rem;
     font-weight: 800;
@@ -140,8 +147,19 @@ body{
 /* Summary */
 
 .summary {
+    background-color: var(--White);
     padding: 2rem;  
     font-size: 1.4rem;
+}
+
+@media (min-width: 375px) {
+    .summary {
+        border-top-right-radius: 3rem;
+        border-bottom-right-radius: 3rem;
+        -webkit-box-shadow: 26px 26px 147px -49px rgba(54,32,117,0.55);
+        -moz-box-shadow: 26px 26px 147px -49px rgba(54,32,117,0.55);
+        box-shadow: 26px 26px 147px -49px rgba(54,32,117,0.55);
+    }
 }
 
 .summary__titulo {

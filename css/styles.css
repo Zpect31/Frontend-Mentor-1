@@ -50,9 +50,19 @@ body{
 }
 
 @media (min-width: 375px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+}
+
+@media (min-width: 375px) {
     .contenedor {
         width: min(90%, 60rem);
-        margin: 5rem auto;
+        margin: 0 auto;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }

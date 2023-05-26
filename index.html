@@ -29,23 +29,21 @@
   </head>
 
   <body>
-    <div class="contenedor">
-      <main class="contenido-principal">
-        <h1 class="contenido-principal__titulo no-margin">Your Result</h1>
-        <div class="contenido-principal__resultados">
-          <p class="contenido-principal__resultado no-margin">76</p>
-          <p
-            class="contenido-principal__resultado contenido-principal__resultado--base no-margin"
-          >
+    <main class="contenedor">
+      <section class="result">
+        <h2 class="result__titulo no-margin">Your Result</h2>
+        <div class="result__resultados">
+          <p class="result__resultado no-margin">76</p>
+          <p class="result__resultado result__resultado--base no-margin">
             of 100
           </p>
         </div>
 
-        <h3 class="contenido-principal__clasificacion no-margin">Great</h3>
-        <p class="contenido-principal__comparacion no-margin">
+        <h3 class="result__clasificacion no-margin">Great</h3>
+        <p class="result__comparacion no-margin">
           You scored higher than 65% of the people who have taken these tests.
         </p>
-      </main>
+      </section>
 
       <section class="summary">
         <h2 class="summary__titulo no-margin">Summary</h2>
@@ -180,6 +178,10 @@
         <!-- .summary__bloque "-->
         <input class="boton" type="submit" value="Continue" />
       </section>
-    </div>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__text no-margin">Solved by Zpect (Juan Vargas)</p>
+    </footer>
   </body>
 </html>

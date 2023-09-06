@@ -1,1 +1,1 @@
-This is my solution tomy first Frontend Mentor challenge
+This is my solution to my first Frontend Mentor challenge
